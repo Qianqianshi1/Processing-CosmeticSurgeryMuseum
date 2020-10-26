@@ -4,7 +4,7 @@
 “The model of beauty” is designed for the event of online selection of cosmetic surgery templates. When beauty has visible and touchable standards, the pursuit of beauty will never end. These beautiful models are regular and unified, as if there is a grid system hidden behind them. However, once the number of cosmetic surgery continues to accumulate, organs and grids will collapse. So I wrote code by processing to show this characteristic of cosmetic surgery.  
 
 ## Requirements
-Processing v3.5.4 (Download Link: https://processing.org/download/)
+Processing v2.2.1 or high (Download Link: https://processing.org/download/)
 
 ## Getting Started
 Download this repository and run the code. In this program, I set some *keyboard* operations. You can **press and move mouse** to draw some points (increase depth) on the surface.
