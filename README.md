@@ -7,7 +7,7 @@
 Processing v3.5.4 (Download Link: https://processing.org/download/)
 
 ## Getting Started
-Download this repository and run the code. In this program, I set some *keyboard* operations. You can press and move mouse to draw some points (increase depth) on the surface.
+Download this repository and run the code. In this program, I set some *keyboard* operations. You can **press and move mouse** to draw some points (increase depth) on the surface.
   
 *Keyboard operations*  
 `i: initial the system.`  
