@@ -31,8 +31,29 @@ void setup() {
  
 void draw() {
   background(#f1f1f1);
+  drawText();
   translate(width/2,height/2);
   ps.run();
+}
+
+void drawText()
+{ 
+  int text_size = 15;
+  textAlign(LEFT,UP);
+  String str = "Operations:";
+  String op_m = "Press and move mouse to draw";
+  String op_i = "i:initial";
+  String op_k = "k:stop rotating";
+  String op_r = "r:continue rotating";
+  String op_b = "b:boom";
+  textSize(text_size);
+  fill(0);
+  text(str,50,50);
+  text(op_m,50,50 + text_size);
+  text(op_i,50,50 + 2*text_size);
+  text(op_k,50,50 + 3*text_size);
+  text(op_r,50,50 + 4*text_size);
+  text(op_b,50,50 + 5*text_size);
 }
 
 class Particle {
@@ -170,9 +191,9 @@ class ParticleSystem {
       if (systemState == "boom" || (brushPointNum > maxLength)){
         p.setState("drop");
       }
-      push();
+      pushMatrix();
       p.run();
-      pop();
+      popMatrix();
       if (p.isDead()) {
        it.remove();
       }
