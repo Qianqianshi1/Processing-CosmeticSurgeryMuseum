@@ -12,7 +12,8 @@ The simulated demo are shown in `demo.mp4`
 ## Requirements
 Processing v2.2.1 or high (Download Link: https://processing.org/download/)
 
-## Getting Started
+## Getting Started  
+Source codes are shown in `ModelBeauty/ModelBeauty.pde`. 
 Download this repository and run the code. In this program, I set some *keyboard* operations. You can **press and move mouse** to draw some points (increase depth) on the surface.
   
 *Keyboard operations*  
